@@ -1,3 +1,9 @@
+# revision 24049
+# category Package
+# catalog-ctan /support/ctanupload
+# catalog-date 2011-09-21 00:42:21 +0200
+# catalog-license gpl3
+# catalog-version 1.2
 Name:		texlive-ctanupload
 Version:	1.2
 Release:	1
@@ -43,6 +49,7 @@ simplify the release process for LaTeX package authors.
 %doc %{_texmfdistdir}/doc/support/ctanupload/README
 %doc %{_texmfdistdir}/doc/support/ctanupload/ctanupload.pdf
 %doc %{_texmfdistdir}/doc/support/ctanupload/ctanupload.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ pushd %{buildroot}%{_bindir}
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
