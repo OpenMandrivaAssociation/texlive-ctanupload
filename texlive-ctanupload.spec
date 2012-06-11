@@ -1,12 +1,12 @@
-# revision 24049
+# revision 26273
 # category Package
 # catalog-ctan /support/ctanupload
-# catalog-date 2011-09-21 00:42:21 +0200
+# catalog-date 2012-05-08 15:13:49 +0200
 # catalog-license gpl3
-# catalog-version 1.2
+# catalog-version 1.7
 Name:		texlive-ctanupload
-Version:	1.2
-Release:	2
+Version:	1.7
+Release:	1
 Summary:	Support for users uploading to CTAN
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/ctanupload
