@@ -5,8 +5,8 @@
 # catalog-license gpl3
 # catalog-version 1.7
 Name:		texlive-ctanupload
-Version:	1.7
-Release:	10
+Version:	1.2c
+Release:	1
 Summary:	Support for users uploading to CTAN
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/ctanupload
