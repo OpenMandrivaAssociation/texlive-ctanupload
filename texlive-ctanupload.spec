@@ -1,6 +1,6 @@
 Name:		texlive-ctanupload
 Version:	26313
-Release:	1
+Release:	2
 Summary:	Support for users uploading to CTAN
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/ctanupload
