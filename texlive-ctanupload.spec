@@ -3,7 +3,7 @@ Version:	26313
 Release:	2
 Summary:	Support for users uploading to CTAN
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/ctanupload
+URL:		https://www.ctan.org/tex-archive/support/ctanupload
 License:	GPL3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctanupload.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ctanupload.doc.r%{version}.tar.xz
