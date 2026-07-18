@@ -1,5 +1,6 @@
 %global tl_name ctanupload
 %global tl_revision 26313
+%global tl_bin_links ctanupload:%{_texmfdistdir}/scripts/ctanupload/ctanupload.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(ctanupload.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The package provides a Perl script that allows the uploads of a
